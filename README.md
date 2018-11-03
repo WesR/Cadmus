@@ -1,7 +1,8 @@
 # Cadmus
 Making CUPS networked printers accessable through discord. 
-Mainly for printing to a networked receipt printer with a max character width of 18.
-Any text sent through the print command will be at max 18 characters long.
+Made for printing to a networked receipt printer with a max character width of 18. Because of this, any text sent through the print command will be at max 18 characters long.
+
+The print command allows the choice of printers. This allows remote printing of documents from anywhere.
 
 ## Commands
 The trigger is @botName. Ownership is determined by the userID specified in the .json.
@@ -14,7 +15,7 @@ The trigger is @botName. Ownership is determined by the userID specified in the 
 + get job queue
 + clear job queue
 ------------------------------
-**Requires Permission:**
+**Requires Owner Permission:**
 + print-doc printer <printer-name> <any document/image>
 ------------------------------
 **Admin Commands:**
