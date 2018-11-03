@@ -34,3 +34,6 @@ defaultsAndKeys.json should look like:
 }
 
 ```
+
+
+[pyCups Documentation](https://web.archive.org/web/20180626110936/https://pythonhosted.org/pycups/cups.Connection-class.html)
