@@ -1,6 +1,6 @@
 # Cadmus
 Making CUPS networked printers accessable through discord. 
-Mainly for printing to a networked recipt printer with a max character width of 18.
+Mainly for printing to a networked receipt printer with a max character width of 18.
 Any text sent through the print command will be at max 18 characters long.
 
 ## Commands
