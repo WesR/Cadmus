@@ -5,6 +5,7 @@ __pycache__/
 
 #meh keys!
 *.json
+scratch
 
 # C extensions
 *.so
