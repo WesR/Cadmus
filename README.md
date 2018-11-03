@@ -6,6 +6,9 @@ The print command allows the choice of printers. This allows remote printing of 
 
 NOTE: printed files *MUST* be attached to the command message
 
+### Documents Support
+Anything the CUPS printer supports, so almost all images / word doc's / pdf's, etc
+
 ## Commands
 The trigger is @botName. Ownership is determined by the userID specified in the .json.
 
@@ -26,7 +29,7 @@ The trigger is @botName. Ownership is determined by the userID specified in the 
 + `yes (Must @ the bot. Allows print-doc on other printer)`
 
 ---------
-defaultsAndKeys.json should look like:
+## defaultsAndKeys.json should look like:
 
 ```
 {
@@ -37,5 +40,9 @@ defaultsAndKeys.json should look like:
 
 ```
 
+## Example
+Example of user asking to print on another printer:
+
+![User Asking to print](./example-doc-with-perm.png)
 
 [pyCups Documentation](https://web.archive.org/web/20180626110936/https://pythonhosted.org/pycups/cups.Connection-class.html)
