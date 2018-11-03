@@ -10,20 +10,20 @@ NOTE: printed files *MUST* be attached to the command message
 The trigger is @botName. Ownership is determined by the userID specified in the .json.
 
 **Open to anyone**
-+ print [any length text]
-+ print-doc [any document/image]
-+ get printers
-+ get default printer
-+ get job queue
-+ clear job queue
++ `print [any length text]`
++ `print-doc [any document/image]`
++ `get printers`
++ `get default printer`
++ `get job queue`
++ `clear job queue`
 ------------------------------
 **Requires Owner Permission:**
-+ print-doc printer [printer name] [any document/image]
++ `print-doc printer [printer name] [any document/image]`
 ------------------------------
 **Admin Commands:**
-+ clear printer queue [printer]
-+ set default printer [name]
-+ yes (Must @ the bot. Allows print-doc on other printer)
++ `clear printer queue [printer]`
++ `set default printer [name]`
++ `yes (Must @ the bot. Allows print-doc on other printer)`
 
 ---------
 defaultsAndKeys.json should look like:
