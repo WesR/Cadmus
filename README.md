@@ -23,7 +23,7 @@ The trigger is @botName. Ownership is determined by the userID specified in the 
 **Admin Commands:**
 + clear printer queue [printer]
 + set default printer [name]
-+ yes to auth prints to other printers
++ yes (Must @ the bot. Allows print-doc on other printer)
 
 ---------
 defaultsAndKeys.json should look like:
